@@ -71,16 +71,16 @@ public:
 int main() {
     LinkedList list;
 
-    cout << "Enter elements (type a character to stop):" << endl;
+    
     int num;
     while (cin >> num) {
         list.insert(num);
     }
 
-    cout << "Maximum number: " << list.maximum() << endl;
-    cout << "First element: " << list.first() << endl;
-    cout << "Size of the list: " << list.size() << endl;
-    cout << "Minimum element: " << list.minimum() << endl;
+    cout << list.maximum() << endl;
+    cout << list.first() << endl;
+    cout <<  list.size() << endl;
+    cout <<  list.minimum() << endl;
 
     return 0;
 }
